@@ -1,0 +1,15 @@
+{
+  "name": "image-update",
+  "version": "1.0.0",
+  "description": "image-update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nure",
+    "alam"
+  ],
+  "author": "nure alam",
+  "license": "ISC"
+}
