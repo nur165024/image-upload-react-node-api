@@ -7,6 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Upload from './Component/ServerImage/Upload';
 
 function App() {
   
@@ -21,6 +22,9 @@ function App() {
           <li>
             <Link to="/image-bb-upload">Image BB</Link>
           </li>
+          <li>
+            <Link to="/server-image-upload">Image Server Upload</Link>
+          </li>
         </ul>
 
         <hr />
@@ -31,6 +35,9 @@ function App() {
           </Route>
           <Route path="/image-bb-upload">
             <ImageUpload></ImageUpload>
+          </Route>
+          <Route path="/server-image-upload">
+            <Upload></Upload>
           </Route>
         </Switch>
       </div>
